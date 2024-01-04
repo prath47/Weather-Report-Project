@@ -39,6 +39,8 @@ async function checkWeather(city){
 
     // weather.style.display = "block";
     weather.classList.remove('hide');
+
+    SearchBox.value = ""
 }
 
 SearchBtn.addEventListener('click' , ()=>{
